@@ -42,7 +42,7 @@ public class MainFrame extends JFrame {
     Container container = this.getContentPane();
     container.setLayout(new GridLayout(4, 2, 0, 0));
 
-    JLabel label = new JLabel("Amount:");
+    JLabel label = new JLabel("Amount EUR:");
     container.add(label);
 
     input = new JTextField("", 5);
